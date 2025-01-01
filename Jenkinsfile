@@ -17,7 +17,7 @@ pipeline {
         stage('print') {
             steps {
                 echo 'Hello world! Jenkinsfile in main' 
-                echo '$GIT_BRANCH"
+                echo '$GIT_BRANCH'
             }
         }
     }
